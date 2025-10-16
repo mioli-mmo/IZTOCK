@@ -1,0 +1,6 @@
+{
+    "name": "React + TypeScript + Yarn + Vite ",
+    "build": {"dockerfile": "Dockerfile"},
+    "forwardPorts": [5173],
+    "postCreateCommand": "cd iztock-app && yarn install"
+}
