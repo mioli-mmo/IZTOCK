@@ -17,3 +17,8 @@ Com o IZTOCK, você pode:
 - Estabelecer teto de gastos e metas de renda
 
 E muitas outras funcionalidades!
+
+## 🧩 Tecnologias utilizadas
+- TypeScript
+- React
+- Vite
