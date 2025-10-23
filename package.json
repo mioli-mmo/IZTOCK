@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/mioli-mmo/IZTOCK#readme",
   "dependencies": {
-    "@angular/cli": "^20.3.7"
+    "@angular/animations": "^20.3.7",
+    "@angular/cli": "^20.3.7",
+    "primeicons": "^7.0.0",
+    "primeng": "^20.2.0"
   }
 }
