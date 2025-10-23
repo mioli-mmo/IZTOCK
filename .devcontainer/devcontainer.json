@@ -1,6 +1,20 @@
 {
-    "name": "React + TypeScript + Yarn + Vite ",
-    "build": {"dockerfile": "Dockerfile"},
-    "forwardPorts": [5173],
-    "postCreateCommand": "cd iztock-app && yarn install"
+  "name": "Angular + TypeScript + Tailwind",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [4200],
+
+  "postCreateCommand": "npm install",
+
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "typescript.tsdk": "./node_modules/typescript/lib" // força o container a usar a versão TS do projeto
+      },
+      "extensions": [
+        "angular.ng-template", // extensão sintasse angular
+        "dbaeumer.vscode-eslint", // extensão auxilio eslint
+        "bradlc.vscode-tailwindcss" // extensão sintasse Tailwind
+      ]
+    }
+  }
 }
