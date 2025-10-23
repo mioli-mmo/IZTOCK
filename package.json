@@ -1,0 +1,29 @@
+{
+  "name": "iztock",
+  "version": "1.0.0",
+  "description": "aplicação de gerenciamento de estoque simplificado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mioli-mmo/IZTOCK.git"
+  },
+  "keywords": [
+    "stock",
+    "manager"
+  ],
+  "author": "Mateus Miranda de Oliveira (Mioli)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mioli-mmo/IZTOCK/issues"
+  },
+  "homepage": "https://github.com/mioli-mmo/IZTOCK#readme",
+  "dependencies": {
+    "@angular/animations": "^20.3.7",
+    "@angular/cli": "^20.3.7",
+    "primeicons": "^7.0.0",
+    "primeng": "^20.2.0"
+  }
+}
